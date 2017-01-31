@@ -1,0 +1,321 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		551F1FB01E411AE700B29A37 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551F1FAF1E411AE700B29A37 /* AppDelegate.swift */; };
+		551F1FB21E411AE700B29A37 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551F1FB11E411AE700B29A37 /* ViewController.swift */; };
+		551F1FB51E411AE700B29A37 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 551F1FB31E411AE700B29A37 /* Main.storyboard */; };
+		551F1FB81E411AE700B29A37 /* UserAutthen_using_CoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 551F1FB61E411AE700B29A37 /* UserAutthen_using_CoreData.xcdatamodeld */; };
+		551F1FBA1E411AE700B29A37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 551F1FB91E411AE700B29A37 /* Assets.xcassets */; };
+		551F1FBD1E411AE700B29A37 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 551F1FBB1E411AE700B29A37 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		551F1FAC1E411AE700B29A37 /* UserAutthen using CoreData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UserAutthen using CoreData.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		551F1FAF1E411AE700B29A37 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		551F1FB11E411AE700B29A37 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		551F1FB41E411AE700B29A37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		551F1FB71E411AE700B29A37 /* UserAutthen_using_CoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UserAutthen_using_CoreData.xcdatamodel; sourceTree = "<group>"; };
+		551F1FB91E411AE700B29A37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		551F1FBC1E411AE700B29A37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		551F1FBE1E411AE700B29A37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		551F1FA91E411AE700B29A37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		551F1FA31E411AE700B29A37 = {
+			isa = PBXGroup;
+			children = (
+				551F1FAE1E411AE700B29A37 /* UserAutthen using CoreData */,
+				551F1FAD1E411AE700B29A37 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		551F1FAD1E411AE700B29A37 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				551F1FAC1E411AE700B29A37 /* UserAutthen using CoreData.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		551F1FAE1E411AE700B29A37 /* UserAutthen using CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				551F1FAF1E411AE700B29A37 /* AppDelegate.swift */,
+				551F1FB11E411AE700B29A37 /* ViewController.swift */,
+				551F1FB31E411AE700B29A37 /* Main.storyboard */,
+				551F1FB91E411AE700B29A37 /* Assets.xcassets */,
+				551F1FBB1E411AE700B29A37 /* LaunchScreen.storyboard */,
+				551F1FBE1E411AE700B29A37 /* Info.plist */,
+				551F1FB61E411AE700B29A37 /* UserAutthen_using_CoreData.xcdatamodeld */,
+			);
+			path = "UserAutthen using CoreData";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		551F1FAB1E411AE700B29A37 /* UserAutthen using CoreData */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 551F1FC11E411AE700B29A37 /* Build configuration list for PBXNativeTarget "UserAutthen using CoreData" */;
+			buildPhases = (
+				551F1FA81E411AE700B29A37 /* Sources */,
+				551F1FA91E411AE700B29A37 /* Frameworks */,
+				551F1FAA1E411AE700B29A37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UserAutthen using CoreData";
+			productName = "UserAutthen using CoreData";
+			productReference = 551F1FAC1E411AE700B29A37 /* UserAutthen using CoreData.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		551F1FA41E411AE700B29A37 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Bit2Labz;
+				TargetAttributes = {
+					551F1FAB1E411AE700B29A37 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 551F1FA71E411AE700B29A37 /* Build configuration list for PBXProject "UserAutthen using CoreData" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 551F1FA31E411AE700B29A37;
+			productRefGroup = 551F1FAD1E411AE700B29A37 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				551F1FAB1E411AE700B29A37 /* UserAutthen using CoreData */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		551F1FAA1E411AE700B29A37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				551F1FBD1E411AE700B29A37 /* LaunchScreen.storyboard in Resources */,
+				551F1FBA1E411AE700B29A37 /* Assets.xcassets in Resources */,
+				551F1FB51E411AE700B29A37 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		551F1FA81E411AE700B29A37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				551F1FB21E411AE700B29A37 /* ViewController.swift in Sources */,
+				551F1FB01E411AE700B29A37 /* AppDelegate.swift in Sources */,
+				551F1FB81E411AE700B29A37 /* UserAutthen_using_CoreData.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		551F1FB31E411AE700B29A37 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				551F1FB41E411AE700B29A37 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		551F1FBB1E411AE700B29A37 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				551F1FBC1E411AE700B29A37 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		551F1FBF1E411AE700B29A37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		551F1FC01E411AE700B29A37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		551F1FC21E411AE700B29A37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "UserAutthen using CoreData/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bit2labz.UserAutthen-using-CoreData";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		551F1FC31E411AE700B29A37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "UserAutthen using CoreData/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bit2labz.UserAutthen-using-CoreData";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		551F1FA71E411AE700B29A37 /* Build configuration list for PBXProject "UserAutthen using CoreData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				551F1FBF1E411AE700B29A37 /* Debug */,
+				551F1FC01E411AE700B29A37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		551F1FC11E411AE700B29A37 /* Build configuration list for PBXNativeTarget "UserAutthen using CoreData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				551F1FC21E411AE700B29A37 /* Debug */,
+				551F1FC31E411AE700B29A37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		551F1FB61E411AE700B29A37 /* UserAutthen_using_CoreData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				551F1FB71E411AE700B29A37 /* UserAutthen_using_CoreData.xcdatamodel */,
+			);
+			currentVersion = 551F1FB71E411AE700B29A37 /* UserAutthen_using_CoreData.xcdatamodel */;
+			path = UserAutthen_using_CoreData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 551F1FA41E411AE700B29A37 /* Project object */;
+}

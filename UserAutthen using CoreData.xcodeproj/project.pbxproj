@@ -13,6 +13,7 @@
 		551F1FB81E411AE700B29A37 /* UserAutthen_using_CoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 551F1FB61E411AE700B29A37 /* UserAutthen_using_CoreData.xcdatamodeld */; };
 		551F1FBA1E411AE700B29A37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 551F1FB91E411AE700B29A37 /* Assets.xcassets */; };
 		551F1FBD1E411AE700B29A37 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 551F1FBB1E411AE700B29A37 /* LaunchScreen.storyboard */; };
+		556B7FF91E4147600095DAD0 /* hkuoyzj4rtu-davide-cantelli.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 556B7FF81E4147600095DAD0 /* hkuoyzj4rtu-davide-cantelli.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		551F1FB91E411AE700B29A37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		551F1FBC1E411AE700B29A37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		551F1FBE1E411AE700B29A37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		556B7FF81E4147600095DAD0 /* hkuoyzj4rtu-davide-cantelli.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "hkuoyzj4rtu-davide-cantelli.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		551F1FAE1E411AE700B29A37 /* UserAutthen using CoreData */ = {
 			isa = PBXGroup;
 			children = (
+				556B7FF81E4147600095DAD0 /* hkuoyzj4rtu-davide-cantelli.jpg */,
 				551F1FAF1E411AE700B29A37 /* AppDelegate.swift */,
 				551F1FB11E411AE700B29A37 /* ViewController.swift */,
 				551F1FB31E411AE700B29A37 /* Main.storyboard */,
@@ -126,6 +129,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				556B7FF91E4147600095DAD0 /* hkuoyzj4rtu-davide-cantelli.jpg in Resources */,
 				551F1FBD1E411AE700B29A37 /* LaunchScreen.storyboard in Resources */,
 				551F1FBA1E411AE700B29A37 /* Assets.xcassets in Resources */,
 				551F1FB51E411AE700B29A37 /* Main.storyboard in Resources */,
@@ -301,6 +305,7 @@
 				551F1FC31E411AE700B29A37 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
